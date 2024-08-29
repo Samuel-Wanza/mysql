@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>accessing-data-mysql</artifactId>
+	<artifactId>simSwapping</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>accessing-data-mysql</name>
+	<name>simSwapping</name>
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -73,6 +73,12 @@
 			<artifactId>junit-jupiter</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-webflux</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.testcontainers</groupId>
 			<artifactId>mysql</artifactId>

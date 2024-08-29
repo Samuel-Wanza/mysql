@@ -1,4 +1,4 @@
-package com.example.accessing_data_mysql;
+package com.example.simSwapping;
 
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.boot.testcontainers.service.connection.ServiceConnection;
